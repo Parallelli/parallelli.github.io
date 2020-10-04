@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://parallelli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>用Huge和Github Page搭建个人博客</title>
-      <link>https://parallelli.github.io/p/%E7%94%A8huge%E5%92%8Cgithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <title>用Hugo和Github Page搭建个人博客</title>
+      <link>https://parallelli.github.io/p/%E7%94%A8hugo%E5%92%8Cgithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://parallelli.github.io/p/%E7%94%A8huge%E5%92%8Cgithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://parallelli.github.io/p/%E7%94%A8hugo%E5%92%8Cgithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;A step by step guide to setup your personal blog using Hugo and Github.&lt;/p&gt;</description>
     </item>
     
     <item>
