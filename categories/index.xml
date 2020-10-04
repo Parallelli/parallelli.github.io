@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lillian Xiong</title>
-    <link>https://example.com/categories/</link>
+    <link>https://parallelli.github.io/categories/</link>
     <description>Recent content in Categories on Lillian Xiong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://parallelli.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://example.com/categories/test/</link>
+      <link>https://parallelli.github.io/categories/test/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/test/</guid>
+      <guid>https://parallelli.github.io/categories/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>syntax</title>
-      <link>https://example.com/categories/syntax/</link>
+      <link>https://parallelli.github.io/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/syntax/</guid>
+      <guid>https://parallelli.github.io/categories/syntax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://example.com/categories/themes/</link>
+      <link>https://parallelli.github.io/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/themes/</guid>
+      <guid>https://parallelli.github.io/categories/themes/</guid>
       <description></description>
     </item>
     
