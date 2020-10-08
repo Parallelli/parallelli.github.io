@@ -219,12 +219,12 @@
 </ol>
 <pre><code>    rm -rf public
 </code></pre><ol start="5">
-<li>建一个submodule把<code>&lt;username&gt;.github.io</code>托管的repo指向public目录。这样本次源文件改后，直接执行下一步中的deploy脚本，就可以自动更新网站repo.</li>
+<li>建一个submodule把<code>&lt;username&gt;.github.io</code>托管的repo指向public目录。这样每次源文件改后，直接执行下一步中的deploy脚本，就可以自动更新网站repo.</li>
 </ol>
 <pre><code>    git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public.
 </code></pre><ol start="6">
 <li>
-<p>把config.toml中的<code>baseURL</code>改成<!-- raw HTML omitted -->.github.io。这么做的目的是网站所有子页面都会以此作为主目录。</p>
+<p>把config.toml中的<code>baseURL</code>改成<code>&lt;USERNAME&gt;.github.io</code>。这么做的目的是网站所有子页面都会以此作为主目录。</p>
 </li>
 <li>
 <p>写一个deploy的<a class="link" href="https://github.com/Parallelli/hugoblog/blob/master/script/deploy"  target="_blank" rel="noopener"
@@ -252,8 +252,8 @@
 <li>在About页关掉评论区</li>
 </ol>
 <p>最终看起来就是你现在正看到的样子。<a class="link" href="https://blog.jimmycai.com/"  target="_blank" rel="noopener"
-    >原作者的博客</a>也是基于他的这个模板做的，功能更丰富一些，我觉得也挺可爱的。</p>
-<p>接下来，我还会持续更新这个博客的样式，也会把值得分享的改动分享给大家。目前的计划包括引入Google Analytics对站点流量进行监督，增加订阅功能和本地搜索功能等。</p>
+    >原作者的博客</a>也是基于他的这个模板做的，功能更丰富一些，我觉得挺可爱的。</p>
+<p>接下来，我还会持续更新这个博客的样式，也会把值得分享的改动分享给大家。目前的计划包括引入Google Analytics对站点流量进行监控，增加订阅功能和本地搜索功能等。</p>
 <pre><code>题图：美国大峡谷Grand Canyon，2019年2月拍的。
 </code></pre>
 </section>

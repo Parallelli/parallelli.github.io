@@ -73,12 +73,12 @@
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;    rm -rf public
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;建一个submodule把&lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt;托管的repo指向public目录。这样本次源文件改后，直接执行下一步中的deploy脚本，就可以自动更新网站repo.&lt;/li&gt;
+&lt;li&gt;建一个submodule把&lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt;托管的repo指向public目录。这样每次源文件改后，直接执行下一步中的deploy脚本，就可以自动更新网站repo.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;    git submodule add -b master https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public.
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;把config.toml中的&lt;code&gt;baseURL&lt;/code&gt;改成&lt;!-- raw HTML omitted --&gt;.github.io。这么做的目的是网站所有子页面都会以此作为主目录。&lt;/p&gt;
+&lt;p&gt;把config.toml中的&lt;code&gt;baseURL&lt;/code&gt;改成&lt;code&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt;。这么做的目的是网站所有子页面都会以此作为主目录。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;写一个deploy的&lt;a class=&#34;link&#34; href=&#34;https://github.com/Parallelli/hugoblog/blob/master/script/deploy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -106,8 +106,8 @@
 &lt;li&gt;在About页关掉评论区&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;最终看起来就是你现在正看到的样子。&lt;a class=&#34;link&#34; href=&#34;https://blog.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;原作者的博客&lt;/a&gt;也是基于他的这个模板做的，功能更丰富一些，我觉得也挺可爱的。&lt;/p&gt;
-&lt;p&gt;接下来，我还会持续更新这个博客的样式，也会把值得分享的改动分享给大家。目前的计划包括引入Google Analytics对站点流量进行监督，增加订阅功能和本地搜索功能等。&lt;/p&gt;
+    &gt;原作者的博客&lt;/a&gt;也是基于他的这个模板做的，功能更丰富一些，我觉得挺可爱的。&lt;/p&gt;
+&lt;p&gt;接下来，我还会持续更新这个博客的样式，也会把值得分享的改动分享给大家。目前的计划包括引入Google Analytics对站点流量进行监控，增加订阅功能和本地搜索功能等。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;题图：美国大峡谷Grand Canyon，2019年2月拍的。
 &lt;/code&gt;&lt;/pre&gt;</description>
         </item>
