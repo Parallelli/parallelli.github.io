@@ -13,7 +13,14 @@
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://parallelli.github.io/p/%E7%94%A8hugo%E5%92%8Cgithub-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;A step by step guide to setup your personal blog using Hugo and Github Pages.&lt;/p&gt;</description>
+      <description>现在随着各种各样的网站生成工具的普及和免费的服务器资源，搭建一个个人网站或博客变得很容易。本文将分享我通过Hugo和Github Pages来搭建这个网站的细节。
+Hugo是一个静态网站生成器。有很多现成的主题模板可以用，所以自己无需去设计和实现所有网页渲染的样式。我的这个博客是用的Stack，我喜欢它的圆圆的卡片设计。
+1.本地搭建网站 仅仅用Hugo，就可以在本地轻松看到自己网站发布之后的效果。具体步骤如下：
+ 下载Hugo。我是用Mac，所以直接用homebrew安装Hugo。   brew install hugo 用Hugo创建一个网站。这条命令会帮你创建一个名为&amp;quot;testblog&amp;quot;的网站，同时你会在本地文件里看到一个名为“testblog”的文件夹。   hugo new site testblog 选择一个主题给这个testblog网站。这里我以Stack主题为例。   cd testblog git clone https://github.com/CaiJimmy/hugo-theme-stack.git --depth=1 themes/hugo-theme-stack # 拷贝样例网站的内容至当前目录 cp -r themes/hugo-theme-stack/exampleSite/content ./ # 拷贝默认设置至当前目录 cp -r themes/hugo-theme-stack/config.toml ./ # 大功告成，运行如下命令便可在本地查看这个网页了 hugo server 按照指示，在浏览器中输入http://localhost:1313/浏览。   Stack主题的样例 
+2.部署上线 网站在本地测试好了之后，就可以通过Github Pages来部署上线了。 Github Pages是Github提供给每个用户的一个免费的网站托管服务和一个对应的用户域名https://&amp;lt;username&amp;gt;.github.io。 Hugo官方网站提供了非常详细的步骤。具体如下
+  创建2个git repo，一个用来host网站代码，另一个用来host Hugo生成的静态网页。后者的repo名字需要跟&amp;lt;github_username&amp;gt;.github.io一样。以后每次你发新的博客时，需要把更新push到第二个repo.
+  git clone &amp;lt;YOUR-PROJECT-URL&amp;gt; &amp;amp;&amp;amp; cd &amp;lt;YOUR-PROJECT&amp;gt;
+  把在上一步搭建本地网站时的Hugo project拷贝到新的&amp;lt;YOUR-PROJECT&amp;gt; repo.</description>
     </item>
     
   </channel>
