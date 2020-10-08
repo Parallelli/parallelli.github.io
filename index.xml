@@ -104,6 +104,7 @@
 &lt;li&gt;Enable Disqus所以每篇文章后面下面会有留言区&lt;/li&gt;
 &lt;li&gt;去掉对文章段落小标题的高亮&lt;/li&gt;
 &lt;li&gt;在About页关掉评论区&lt;/li&gt;
+&lt;li&gt;去掉了头像右下角的emoji&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;最终看起来就是你现在正看到的样子。&lt;a class=&#34;link&#34; href=&#34;https://blog.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;原作者的博客&lt;/a&gt;也是基于他的这个模板做的，功能更丰富一些，我觉得挺可爱的。&lt;/p&gt;
