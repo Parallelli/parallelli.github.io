@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Lillian Xiong</title>
-    <link>https://parallelli.github.io/post/</link>
-    <description>Recent content in Posts on Lillian Xiong</description>
+    <title>个人成长 on Lillian Xiong</title>
+    <link>https://parallelli.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</link>
+    <description>Recent content in 个人成长 on Lillian Xiong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://parallelli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://parallelli.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最近的时间管理体会</title>
       <link>https://parallelli.github.io/p/%E6%9C%80%E8%BF%91%E7%9A%84%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E4%BD%93%E4%BC%9A/</link>
@@ -23,22 +23,6 @@
  我非常清楚我这一天从10点到7点到底都做了什么。 到下班时间，我不再会因为一些任务没有理想的进展而自我怀疑这天怎么什么也没干。这很对于保护心理健康很重要。 对一些任务的时间所需时间有了更准确的了解。 有些原本以为一个小时做完的东西，却最终花了三小时，在提高业务能力和效率的同时，下次可以更好地预计完成时间。小到一个独立任务的用时预估，大到对整个团队的季度年度计划。 更容易看到短板（成长的机会）。 比如我发现我在IM上跟隔壁组同事就一个问题花了一个小时讨论无果，我或许应该开会来面对面讨论以提高沟通效率。  要保持每天每个0.5~1小时一次的高频记录并不容易。最关键的是要找到一个适合自己的好用的工具。我以前尝试过印象笔记，Quip, Notion, Apple Notes以及一些不知名的App，都没有成功坚持记录，所以收效甚微。终于，踏破铁鞋无觅处，我发现Outlook确是特别好用！很简单去block一个时间和把一些需要往后拖的事项直接拖拽。毫不费劲地就把每一天都仔细记录了。
 最后，记录了并且定期（比如每周末）回顾，总结反思，才能更好地发挥记录的作用。一些简单有用的反思：
  检查每周用于开会的时间，是否太多或太少以至于影响了整体进度 哪些任务实际完成所需时间跟预估的出入大于100% 有多少事情是在一周工作过程中新出现的预先没有安排的，以及他们总共占用的时间 &amp;hellip;  持续观察这些数据，它们会帮我们更好地规划工作，以此降低工作压力，保持身心健康。同时也是一个找到自己成长机会的捷径。</description>
-    </item>
-    
-    <item>
-      <title>用Hugo和Github Pages搭建个人博客</title>
-      <link>https://parallelli.github.io/p/%E7%94%A8hugo%E5%92%8Cgithub-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://parallelli.github.io/p/%E7%94%A8hugo%E5%92%8Cgithub-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>现在随着各种各样的网站生成工具的普及和免费的服务器资源，搭建一个个人网站或博客变得很容易。本文将分享我通过Hugo和Github Pages来搭建这个网站的细节。
-Hugo是一个静态网站生成器。有很多现成的主题模板可以用，所以自己无需去设计和实现所有网页渲染的样式。我的这个博客是用的Stack，我喜欢它的圆圆的卡片设计。
-1.本地搭建网站 仅仅用Hugo，就可以在本地轻松看到自己网站发布之后的效果。具体步骤如下：
- 下载Hugo。我是用Mac，所以直接用homebrew安装Hugo。   brew install hugo 用Hugo创建一个网站。这条命令会帮你创建一个名为&amp;quot;testblog&amp;quot;的网站，同时你会在本地文件里看到一个名为“testblog”的文件夹。   hugo new site testblog 选择一个主题给这个testblog网站。这里我以Stack主题为例。   cd testblog git clone https://github.com/CaiJimmy/hugo-theme-stack.git --depth=1 themes/hugo-theme-stack # 拷贝样例网站的内容至当前目录 cp -r themes/hugo-theme-stack/exampleSite/content ./ # 拷贝默认设置至当前目录 cp -r themes/hugo-theme-stack/config.toml ./ # 大功告成，运行如下命令便可在本地查看这个网页了 hugo server 按照指示，在浏览器中输入http://localhost:1313/浏览。   Stack主题的样例 
-2.部署上线 网站在本地测试好了之后，就可以通过Github Pages来部署上线了。 Github Pages是Github提供给每个用户的一个免费的网站托管服务和一个对应的用户域名https://&amp;lt;username&amp;gt;.github.io。 Hugo官方网站提供了非常详细的步骤。具体如下
-  创建2个git repo，一个用来host网站代码，另一个用来host Hugo生成的静态网页。后者的repo名字需要跟&amp;lt;github_username&amp;gt;.github.io一样。以后每次你发新的博客时，需要把更新push到第二个repo.
-  git clone &amp;lt;YOUR-PROJECT-URL&amp;gt; &amp;amp;&amp;amp; cd &amp;lt;YOUR-PROJECT&amp;gt;
-  把在上一步搭建本地网站时的Hugo project拷贝到新的&amp;lt;YOUR-PROJECT&amp;gt; repo.</description>
     </item>
     
   </channel>
